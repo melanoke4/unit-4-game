@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystals Collector Game</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" type="reset/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body>
+    <h1 id="title">Crystals Collector</h1>
+
+    <div id="rules">
+        <p>-You will be given a random number at the start of the game.<br><br>
+            -There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total score.<br><br>
+            -You win the game by matching your total score to random number, you lose the game if your total score goes
+            above the random number.<br><br>
+            -The value of each crystal is hidden from you until you click on it.<br><br>
+            -Each time when the game starts, the game will change the values of each crystal</p><br>
+    </div>
+
+    <div id="box1">
+        <div id="randomNumber">
+            <!-- <span>0</span> -->
+        </div>
+        <div id="wins">
+            <p>"WINS: "
+                <span>0</span>
+            </p>
+            <p>"LOSES: "
+                <span>0</span>
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <div id="crystals">
+            <!-- <div class="crystalbutton" data-name="one"><img alt="image" class="crystalimg"
+                    src="assets/images/handdrawn-crystal-doodle-icon-hand-drawn-black-sketch-sign-symbol-decoration-element-white-background-isolated-flat-design-vector-156922006.jpg">
+            </div>
+            <div class="crystalbutton" data-name="two"><img alt="image" class="crystalimg"
+                    src="assets/images/handdrawn-crystal-doodle-icon-hand-drawn-black-sketch-sign-symbol-decoration-element-white-background-isolated-flat-design-vector-156922044.jpg">
+            </div>
+            <div class="crystalbutton" data-name="three"><img alt="image" class="crystalimg"
+                    src="assets/images/handdrawn-crystal-doodle-icon-hand-drawn-black-sketch-sign-symbol-decoration-element-white-background-isolated-flat-design-vector-156922058.jpg">
+            </div>
+            <div class="crystalbutton" data-name="four"><img alt="image" class="crystalimg"
+                    src="assets/images/handdrawn-crystal-doodle-icon-hand-drawn-black-sketch-sign-symbol-decoration-element-white-background-isolated-flat-design-vector-156922088.jpg">
+            </div> -->
+        </div>
+        <div id="scoreTotal">Your total score is:</div>
+        <div id="scores">
+            <div id="score-number">0</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+body {
+    background-image: url("../images/colorful-pastel-mosaic-background-vector-modern-posters-brochures-sites-web-cards-interior-design-115532699.jpg");
+  }
+  
+  #box1 {
+    overflow: auto;
+  }
+  
+  #box1 div {
+    float: left;
+  }
+  
+  #title {
+    width: 230px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: grey;
+  }
+  
+  
+  #randomNumber {
+      width: 200px;
+      height: 100px;
+      padding: 5px;
+      font-size: 3vw;
+      color: white;
+      background-color: grey;
+    }
+    
+    #rules {
+      width: 400px;
+      height: 400px;
+      padding: 5px;
+      margin-bottom: 10px;
+      color: white;
+      background-color: grey;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+    }
+
+  #scores {
+    width: 210px;
+    height: 100px;
+    padding: 5px;
+    color: white;
+    background-color: grey;
+  }
+  
+  #scoreTotal {
+    width: 210px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: grey;
+  }
+  
+
+  
+  #score-number {
+    font-size: 3vw;
+  }
+  
+  #wins {
+    height: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: pink;
+  }
+
+
+
+
+  .crystalbutton {
+    display: inline;
+  }
+  
+  .crystalimg {
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    background-color: white;
+    border: solid;
+    border-color: pink;
+  }
